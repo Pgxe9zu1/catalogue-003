@@ -1,0 +1,38 @@
+project:
+  type: book
+  output-dir: docs
+
+# Quarto options for books
+# https://quarto.org/docs/reference/projects/books.html
+book:
+  title: "Baroque AI: Publication Prototype"
+  author: "Class participants"
+  date: "2023-03-17"
+  # this section determines which files will be added to the book as chapters
+  chapters:
+    - index.qmd
+    - colophon.ipynb
+    - collection003.qmd
+    - paintingsSommer.ipynb
+    - video.ipynb
+  repo-url: https://github.com/Pgxe9zu1/catalogue-003
+  repo-actions: [edit]
+  downloads: [pdf]
+
+# Quarto allows commenting using either Hypothesis or Utterances
+# https://quarto.org/docs/reference/projects/books.html#comments
+comments:
+  hypothesis: true
+
+format:
+  # options for HTML output
+  # https://quarto.org/docs/reference/formats/html.html
+  html:
+    number-sections: false
+    # Quarto allows a number of pre-packaged themes for the HTML version
+    # You can choose between them using the documentation at https://quarto.org/docs/output-formats/html-themes.html
+    theme: lux
+  # options for PDF output 
+  # https://quarto.org/docs/reference/formats/pdf.html
+  pdf:
+    documentclass: book

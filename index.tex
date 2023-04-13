@@ -7,7 +7,6 @@
 ]{book}
 
 \usepackage{amsmath,amssymb}
-\usepackage{lmodern}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
@@ -17,6 +16,10 @@
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -118,10 +121,12 @@
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
 \makeatletter
-\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
 \makeatother
 \makeatletter
 \@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
 \makeatother
 \makeatletter
 \makeatother
@@ -139,12 +144,12 @@
 
 \title{Baroque AI: Publication Prototype}
 \author{Class participants}
-\date{3/17/23}
+\date{2023-03-17}
 
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, breakable, sharp corners, frame hidden, boxrule=0pt, interior hidden, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, interior hidden, breakable, borderline west={3pt}{0pt}{shadecolor}, frame hidden, enhanced, sharp corners]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -165,7 +170,7 @@ instructions}
 
 \begin{figure}
 
-{\centering \includegraphics{./6780765/Cupido.jpg}
+{\centering \includegraphics{6780765/Cupido.jpg}
 
 }
 
@@ -288,113 +293,113 @@ Quarto.
 The below Python code uses SPARQLWrapper to retrieve data from Wikidata
 based on a SPARQL query.
 
-Wikidata link: \url{http://www.wikidata.org/entity/Q25569472}
+Wikidata link: \url{http://www.wikidata.org/entity/Q203259}
 
-Title: Judith
+Title: The Fall of the Damned
+
+Year: 1621
+
+Creator: Peter Paul Rubens
+
+Copyright: public domain
+
+\includegraphics{paintings_files/figure-pdf/cell-2-output-2.png}
+
+Wikidata link: \url{http://www.wikidata.org/entity/Q568100}
+
+Title: The Descent from the Cross
+
+Year: 1633
+
+Creator: Rembrandt
+
+Copyright: public domain
+
+\includegraphics{paintings_files/figure-pdf/cell-2-output-4.png}
+
+Wikidata link: \url{http://www.wikidata.org/entity/Q571416}
+
+Title: Honeysuckle Bower
+
+Year: 1609
+
+Creator: Peter Paul Rubens
+
+Copyright: public domain
+
+\includegraphics{paintings_files/figure-pdf/cell-2-output-6.png}
+
+Wikidata link: \url{http://www.wikidata.org/entity/Q644936}
+
+Title: The Rape of the Daughters of Leucippus
+
+Year: 1618
+
+Creator: Peter Paul Rubens
+
+Copyright: public domain
+
+\includegraphics{paintings_files/figure-pdf/cell-2-output-8.png}
+
+Wikidata link: \url{http://www.wikidata.org/entity/Q644936}
+
+Title: The Rape of the Daughters of Leucippus
+
+Year: 1618
+
+Creator: Jan Wildens
+
+Copyright: public domain
+
+\includegraphics{paintings_files/figure-pdf/cell-2-output-10.png}
+
+Wikidata link: \url{http://www.wikidata.org/entity/Q835699}
+
+Title: The Great Last Judgement
+
+Year: 1617
+
+Creator: Peter Paul Rubens
+
+Copyright: public domain
+
+\includegraphics{paintings_files/figure-pdf/cell-2-output-12.png}
+
+Wikidata link: \url{http://www.wikidata.org/entity/Q835699}
+
+Title: The Great Last Judgement
+
+Year: 1617
+
+Creator: Peter Paul Rubens
+
+Copyright: public domain
+
+\includegraphics{paintings_files/figure-pdf/cell-2-output-14.png}
+
+Wikidata link: \url{http://www.wikidata.org/entity/Q880502}
+
+Title: Willem van Heythuysen posing with a sword
 
 Year: 1625
 
-Creator: Simon Vouet
+Creator: Frans Hals
 
 Copyright: public domain
 
-\includegraphics{./paintings_files/figure-pdf/cell-2-output-2.png}
+\includegraphics{paintings_files/figure-pdf/cell-2-output-16.png}
 
-Wikidata link: \url{http://www.wikidata.org/entity/Q27316110}
+Wikidata link: \url{http://www.wikidata.org/entity/Q1548676}
 
-Title: Zeil- en roeiboten in een riviermonding
+Title: Large Fish Market
 
-Year: 1640
+Year: 1603
 
-Creator: Jan van Goyen
-
-Copyright: public domain
-
-\includegraphics{./paintings_files/figure-pdf/cell-2-output-4.png}
-
-Wikidata link: \url{http://www.wikidata.org/entity/Q27919851}
-
-Title: The Gallery of Archduke Leopold in Brussels (I)
-
-Year: 1651
-
-Creator: David Teniers the Younger
+Creator: Jan Brueghel the Elder
 
 Copyright: public domain
 
-\includegraphics{./paintings_files/figure-pdf/cell-2-output-6.png}
-
-Wikidata link: \url{http://www.wikidata.org/entity/Q27976019}
-
-Title: A Woman Playing a Lute
-
-Year: 1663
-
-Creator: Frans van Mieris the Elder
-
-Copyright: public domain
-
-\includegraphics{./paintings_files/figure-pdf/cell-2-output-8.png}
-
-Wikidata link: \url{http://www.wikidata.org/entity/Q27976019}
-
-Title: A Woman Playing a Lute
-
-Year: 1663
-
-Creator: Frans van Mieris the Elder
-
-Copyright: public domain
-
-\includegraphics{./paintings_files/figure-pdf/cell-2-output-10.png}
-
-Wikidata link: \url{http://www.wikidata.org/entity/Q28379861}
-
-Title: Portrait of David II Teniers
-
-Year: 1659
-
-Creator: Pieter Thijs
-
-Copyright: public domain
-
-\includegraphics{./paintings_files/figure-pdf/cell-2-output-12.png}
-
-Wikidata link: \url{http://www.wikidata.org/entity/Q28795868}
-
-Title: The Banishment of Hagar
-
-Year: 1668
-
-Creator: Claude Lorrain
-
-Copyright: public domain
-
-\includegraphics{./paintings_files/figure-pdf/cell-2-output-14.png}
-
-Wikidata link: \url{http://www.wikidata.org/entity/Q28795872}
-
-Title: Q28795872
-
-Year: 1665
-
-Creator: Francisque Millet
-
-Copyright: public domain
-
-\includegraphics{./paintings_files/figure-pdf/cell-2-output-16.png}
-
-Wikidata link: \url{http://www.wikidata.org/entity/Q28801542}
-
-Title: Madonna and Child
-
-Year: 1635
-
-Creator: Philippe de Champaigne
-
-Copyright: public domain
-
-\includegraphics{./paintings_files/figure-pdf/cell-2-output-18.png}
+\includegraphics{paintings_files/figure-pdf/cell-2-output-18.png}
 
 \bookmarksetup{startatroot}
 
@@ -404,6 +409,9 @@ Notebook}\label{activity-embedded-video-in-jupyter-notebook}}
 
 Objective: Running and editing Juypter Notebooks in MyBinder and
 retrieving video and 3D models as embeds.
+
+\hypertarget{video-embedding}{%
+\section{Video embedding}\label{video-embedding}}
 
 The below Python code experiments with retrieving video data via iframe
 embedding.
