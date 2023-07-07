@@ -5,19 +5,22 @@ project:
 # Quarto options for books
 # https://quarto.org/docs/reference/projects/books.html
 book:
-  title: "Baroque AI: Publication Prototype"
-  author: "Class participants"
-  date: "2023-03-17"
+  title: "Brushstrokes of Beauty: Masterpieces from the Alte Nationalgalerie, Berlin"
+  author: "Lisa Sommer"
+  date: "2023-07-06"
   # this section determines which files will be added to the book as chapters
   chapters:
     - index.qmd
     - colophon.ipynb
     - collection003.qmd
-    - paintings.ipynb
-    - video.ipynb
-  repo-url: https://github.com/NFDI4Culture/catalogue-003
+    - paintings_1ls.ipynb
+    - collection-sommer.ipynb
+    #- plantsSommer.ipynb
+    
+  repo-url: https://github.com/Pgxe9zu1/catalogue-003
   repo-actions: [edit]
-  downloads: [pdf]
+  downloads: [pdf,docx,epub]
+  cover-image: 6780765/moench.jpg
 
 # Quarto allows commenting using either Hypothesis or Utterances
 # https://quarto.org/docs/reference/projects/books.html#comments
@@ -31,8 +34,12 @@ format:
     number-sections: false
     # Quarto allows a number of pre-packaged themes for the HTML version
     # You can choose between them using the documentation at https://quarto.org/docs/output-formats/html-themes.html
-    theme: minty
+    theme: lux
   # options for PDF output 
   # https://quarto.org/docs/reference/formats/pdf.html
   pdf:
     documentclass: book
+  docx: 
+    toc: true
+  epub: 
+    toc: true  

@@ -1,14 +1,14 @@
-## Baroque AI: Publication Prototype
+## Brushstrokes of Beauty: Masterpieces from the Alte Nationalgalerie, Berlin
 
 ## Part of the series: Baroque TOC
 
 [Programme instructions](https://nfdi4culture.github.io/class-ADA-CP-pipeline/)
 
-2023-03-17 v1.0
+2023-07-07 v1.0
 
-![Baroque AI](6780765/Cupido.jpg)
+![Baroque AI](6780765/moench.jpg)
 
-Venus und Cupido, Heinrich Bollandt, between circa 1620 and circa 1630. https://commons.wikimedia.org/wiki/File:Heinrich_Bollandt_-_Venus_und_Cupido.jpg This work is in the public domain.
+The Monk by the Sea (German: Der Mönch am Meer), painted between 1808 and 1810 by Caspar David Friedrich, is a radical and iconic landscape painting, also known as 'Wanderer above the Sea of Fog.' It is considered the epitome of a modern artwork and a symbol of the modern human. https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg This work is in the public domain.
 
 Example publications:
 
@@ -26,7 +26,7 @@ Example publications:
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-Book cover: Reworking of [Baroque pearl with enamelled gold mounts set with rubies](https://en.wikipedia.org/wiki/File:Pendant_in_the_form_of_a_siren_MET_DT7173.jpg). Creative Commons CC0 1.0 Universal Public Domain Dedication. This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art.
+Book cover: Digitally enhanced scan of [Dans la Serre](https://commons.wikimedia.org/wiki/File:In_the_Conservatory_-_edited.jpg#/media/File:In_the_Conservatory_-_edited.jpg). This work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer. 
 
 ## Quarto and Jupyter Notebook
 

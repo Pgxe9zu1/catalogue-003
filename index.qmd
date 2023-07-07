@@ -2,11 +2,9 @@
 
 [Programme instructions](https://nfdi4culture.github.io/class-ADA-CP-pipeline/)
 
-2023-03-17 v1.0
+2023-07-07 v1.0
 
-![Baroque AI](6780765/Cupido.jpg)
-
-Venus und Cupido, Heinrich Bollandt, between circa 1620 and circa 1630. https://commons.wikimedia.org/wiki/File:Heinrich_Bollandt_-_Venus_und_Cupido.jpg This work is in the public domain.
+The Monk by the Sea (German: Der Mönch am Meer), painted between 1808 and 1810 by Caspar David Friedrich. https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg This work is in the public domain.
 
 Example publications: 
 

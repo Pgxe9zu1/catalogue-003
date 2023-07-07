@@ -14,13 +14,14 @@ Nextcloud Markdown document link: https://tib.eu/cloud/s/qBx8SbqiPBBedye
 
 ## Add your name:
 
-* Simon Worthington
+* Lisa Sommer
 
 ## Text editing
 
-Paste in a section of text based on variation of Baroque painting collections in the state of Bavaria.
+The Alte Nationalgalerie, located in Berlin, Germany, is a renowned art museum that houses an impressive collection of 19th-century artwork. It is situated on Museum Island, a UNESCO World Heritage site, and is one of the five museums that form the Berlin State Museums. The museum's architecture is a striking combination of neoclassical and Italian Renaissance styles. It was designed by the prominent Prussian architect Friedrich August Stüler and opened its doors to the public in 1876. The building itself is a work of art, with its grand colonnaded entrance and ornate interior spaces.
 
-<https://openai.com/blog/chatgpt>
+Inside the Alte Nationalgalerie, visitors can explore a vast array of paintings and sculptures from the 19th century. The collection primarily focuses on German art from the Romantic, Biedermeier, and Impressionist periods, but it also includes notable works from other European artists. One of the highlights of the museum is its extensive collection of paintings by Caspar David Friedrich, a leading figure in German Romanticism. Friedrich's landscapes, characterized by their sublime and mystical qualities, evoke a sense of awe and introspection. Other prominent artists featured in the Alte Nationalgalerie include Karl Friedrich Schinkel, Adolph Menzel, and Max Liebermann. The museum's sculpture collection showcases works by renowned artists such as Johann Gottfried Schadow and Reinhold Begas. These sculptures, often depicting mythological figures or historical personalities, demonstrate the technical mastery and artistic sensibilities of the 19th century.
 
-<https://www.perplexity.ai/>
+Overall, the Alte Nationalgalerie provides visitors with a unique opportunity to explore the artistic developments and cultural context of 19th-century Germany and Europe. It offers a captivating journey through a transformative era in art history, allowing visitors to appreciate the beauty and significance of the works on display.
 
+-OpenAI. (2023). ChatGPT (May 24 version) [Large language model]. https://chat.openai.com/chat
