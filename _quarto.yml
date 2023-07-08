@@ -5,7 +5,7 @@ project:
 # Quarto options for books
 # https://quarto.org/docs/reference/projects/books.html
 book:
-  title: "Brushstrokes of Beauty: Masterpieces from the Alte Nationalgalerie, Berlin"
+  title: "Flora Unveiled: Exploring the Diverse Plant Collections of Berlin's Botanical Garden and Museum"
   author: "Lisa Sommer"
   date: "2023-07-06"
   # this section determines which files will be added to the book as chapters
@@ -13,14 +13,15 @@ book:
     - index.qmd
     - colophon.ipynb
     - collection003.qmd
-    - paintings_1ls.ipynb
+    #- paintings_1ls.ipynb
+    - plants_1ls.ipynb
     - collection-sommer.ipynb
-    #- plantsSommer.ipynb
+    
     
   repo-url: https://github.com/Pgxe9zu1/catalogue-003
   repo-actions: [edit]
   downloads: [pdf,docx,epub]
-  cover-image: 6780765/moench.jpg
+  cover-image: 6780765/Ranunculus seguieri.png
 
 # Quarto allows commenting using either Hypothesis or Utterances
 # https://quarto.org/docs/reference/projects/books.html#comments

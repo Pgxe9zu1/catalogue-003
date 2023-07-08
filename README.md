@@ -6,9 +6,9 @@
 
 2023-07-07 v1.0
 
-![Baroque AI](6780765/moench.jpg)
+![Baroque AI](6780765/Ranunculus seguieri.png)
 
-The Monk by the Sea (German: Der Mönch am Meer), painted between 1808 and 1810 by Caspar David Friedrich, is a radical and iconic landscape painting, also known as 'Wanderer above the Sea of Fog.' It is considered the epitome of a modern artwork and a symbol of the modern human. https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg This work is in the public domain.
+A herbarium specimen of Ranunculus seguieri Vill. collected by Stein,B.. https://www.jacq.org/detail.php?ID=1806941 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
 
 Example publications:
 
@@ -26,7 +26,7 @@ Example publications:
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-Book cover: Digitally enhanced scan of [Dans la Serre](https://commons.wikimedia.org/wiki/File:In_the_Conservatory_-_edited.jpg#/media/File:In_the_Conservatory_-_edited.jpg). This work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer. 
+Book cover: Digitized herbarium specimens [Pedicularis sudetica Willd.](https://commons.wikimedia.org/wiki/File:In_the_Conservatory_-_edited.jpg#/media/File:In_the_Conservatory_-_edited.jpg). This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 ## Quarto and Jupyter Notebook
 
